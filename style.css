@@ -1,0 +1,275 @@
+img {
+    width: 160px;
+    padding: 5px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: #1b1b1b;
+  }
+
+  .home {
+    padding: 10px;
+    left: 0;
+  }
+
+  .home p {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .home .end {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .home a {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    color: #f8b700;
+  }
+  
+  .header {
+    background-color: #1b1b1b;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header p {
+    font-family: arial;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .header h2 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color: #f8b700;
+  }
+  
+  .interface {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1b1b1b;
+  }
+  
+  .interface a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .interface img {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .img-avatar {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .interface div {
+    width: 220px;
+    padding: 0 10px 0 10px;
+    background-color: #211510;
+    text-align: right;
+  }
+  
+  .interface a:hover div {
+    background-color: #3c1d3d;
+  }
+  
+  .interface h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    color: #f8b700;
+    padding: 12px 0 4px;
+  }
+  
+  .interface p {
+    text-align: left;
+    font-family: arial;
+    font-size: 12px;
+    color: #d5c8af;
+    line-height: 20px;
+  }
+  
+  .btn-prefight {
+    width: 100% !important;
+  }
+  
+  .actions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .actions a {
+    width: 33.33%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial;
+    color: #1b1b1b;
+  }
+  
+  .actions a:nth-of-type(1) {
+    background-color: #e64747;
+  }
+  
+  .actions a:nth-of-type(2) {
+    background-color: #e6ce47;
+  }
+  
+  .actions a:nth-of-type(3) {
+    background-color: #6de647;
+  }
+  
+  .actions a:hover {
+    opacity: 0.9;
+  } 
+  
+  .arena {
+    width: 100%;
+    height: 190px;
+    background-color: #1d373d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img/arena/hell.jpg");
+    background-size: 300px;
+    text-align: center;
+    visibility: hidden;
+  }
+
+  .arena h3 {
+      padding: 10px;
+  }
+
+  .enemy {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    /* opacity: 0; */
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1b1b1b;
+    position: absolute;
+  }
+  
+  .enemy a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .enemy img {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .enemy div {
+    width: 220px;
+    padding: 10 10px 0 20px;
+    background-color: #211510;
+  }
+  
+  .enemy a:hover div {
+    background-color: #3c1d3d;
+  }
+  
+  .enemy-stats h3 {
+    font-family: 'Acme', sans-serif;
+    text-align: right;
+    font-size: 22px;
+    color: #f8b700;
+    padding: 12px 0 4px;
+  }
+
+  .player-stats h3 {
+    font-family: 'Acme', sans-serif;
+    text-align: left;
+    font-size: 22px;
+    color: #f8b700;
+    padding: 12px 0 4px;
+  }
+  
+  .player-stats p{
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+    color: #d5c8af;
+    line-height: 20px;
+  }
+
+  .enemy-stats p{
+    text-align: left;
+    font-family: arial;
+    font-size: 12px;
+    color: #d5c8af;
+    line-height: 20px;
+  }
+
+  .dead {
+    background-color: black;
+    display: none;
+  }
+
+  .dead .proceed {
+    height: 200px;
+    width: 100%;
+    border: #c0c0c0, solid, 2px;
+  }
+
+  .dead .proceed .title {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    padding: 12px 0 4px;
+    color: #f8b700;
+    text-align: center;
+  }
+
+  body > div.dead > div > a {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    display: inherit;
+    text-align: center;
+    color: #f8b700;
+  }
+
+  .levelup {
+    background-color: #c0c0c0;
+    border: #f8b700, solid, 1px;
+    color: white;
+    float: left;
+  }
+
+  
